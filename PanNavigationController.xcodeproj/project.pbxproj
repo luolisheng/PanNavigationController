@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC3945041809943A00DA5A8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3945031809943A00DA5A8C /* UIKit.framework */; };
+		BC3945061809943A00DA5A8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3945051809943A00DA5A8C /* Foundation.framework */; };
+		BC3945081809943A00DA5A8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3945071809943A00DA5A8C /* CoreGraphics.framework */; };
+		BC39450E1809943A00DA5A8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC39450C1809943A00DA5A8C /* InfoPlist.strings */; };
+		BC3945101809943A00DA5A8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC39450F1809943A00DA5A8C /* main.m */; };
+		BC3945141809943A00DA5A8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3945131809943A00DA5A8C /* AppDelegate.m */; };
+		BC3945161809943A00DA5A8C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3945151809943A00DA5A8C /* Default.png */; };
+		BC3945181809943A00DA5A8C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3945171809943A00DA5A8C /* Default@2x.png */; };
+		BC39451A1809943A00DA5A8C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3945191809943A00DA5A8C /* Default-568h@2x.png */; };
+		BC3945221809943A00DA5A8C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3945211809943A00DA5A8C /* SenTestingKit.framework */; };
+		BC3945231809943A00DA5A8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3945031809943A00DA5A8C /* UIKit.framework */; };
+		BC3945241809943A00DA5A8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3945051809943A00DA5A8C /* Foundation.framework */; };
+		BC39452C1809943A00DA5A8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC39452A1809943A00DA5A8C /* InfoPlist.strings */; };
+		BC39452F1809943A00DA5A8C /* PanNavigationControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC39452E1809943A00DA5A8C /* PanNavigationControllerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC3945251809943A00DA5A8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC3944F81809943A00DA5A8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC3944FF1809943A00DA5A8C;
+			remoteInfo = PanNavigationController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC3945001809943A00DA5A8C /* PanNavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PanNavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3945031809943A00DA5A8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BC3945051809943A00DA5A8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BC3945071809943A00DA5A8C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BC39450B1809943A00DA5A8C /* PanNavigationController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PanNavigationController-Info.plist"; sourceTree = "<group>"; };
+		BC39450D1809943A00DA5A8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC39450F1809943A00DA5A8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC3945111809943A00DA5A8C /* PanNavigationController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PanNavigationController-Prefix.pch"; sourceTree = "<group>"; };
+		BC3945121809943A00DA5A8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC3945131809943A00DA5A8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC3945151809943A00DA5A8C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BC3945171809943A00DA5A8C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BC3945191809943A00DA5A8C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BC3945201809943A00DA5A8C /* PanNavigationControllerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanNavigationControllerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3945211809943A00DA5A8C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BC3945291809943A00DA5A8C /* PanNavigationControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PanNavigationControllerTests-Info.plist"; sourceTree = "<group>"; };
+		BC39452B1809943A00DA5A8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC39452D1809943A00DA5A8C /* PanNavigationControllerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanNavigationControllerTests.h; sourceTree = "<group>"; };
+		BC39452E1809943A00DA5A8C /* PanNavigationControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanNavigationControllerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC3944FD1809943A00DA5A8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3945041809943A00DA5A8C /* UIKit.framework in Frameworks */,
+				BC3945061809943A00DA5A8C /* Foundation.framework in Frameworks */,
+				BC3945081809943A00DA5A8C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC39451C1809943A00DA5A8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3945221809943A00DA5A8C /* SenTestingKit.framework in Frameworks */,
+				BC3945231809943A00DA5A8C /* UIKit.framework in Frameworks */,
+				BC3945241809943A00DA5A8C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC3944F71809943A00DA5A8C = {
+			isa = PBXGroup;
+			children = (
+				BC3945091809943A00DA5A8C /* PanNavigationController */,
+				BC3945271809943A00DA5A8C /* PanNavigationControllerTests */,
+				BC3945021809943A00DA5A8C /* Frameworks */,
+				BC3945011809943A00DA5A8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3945011809943A00DA5A8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC3945001809943A00DA5A8C /* PanNavigationController.app */,
+				BC3945201809943A00DA5A8C /* PanNavigationControllerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3945021809943A00DA5A8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC3945031809943A00DA5A8C /* UIKit.framework */,
+				BC3945051809943A00DA5A8C /* Foundation.framework */,
+				BC3945071809943A00DA5A8C /* CoreGraphics.framework */,
+				BC3945211809943A00DA5A8C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3945091809943A00DA5A8C /* PanNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				BC3945121809943A00DA5A8C /* AppDelegate.h */,
+				BC3945131809943A00DA5A8C /* AppDelegate.m */,
+				BC39450A1809943A00DA5A8C /* Supporting Files */,
+			);
+			path = PanNavigationController;
+			sourceTree = "<group>";
+		};
+		BC39450A1809943A00DA5A8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC39450B1809943A00DA5A8C /* PanNavigationController-Info.plist */,
+				BC39450C1809943A00DA5A8C /* InfoPlist.strings */,
+				BC39450F1809943A00DA5A8C /* main.m */,
+				BC3945111809943A00DA5A8C /* PanNavigationController-Prefix.pch */,
+				BC3945151809943A00DA5A8C /* Default.png */,
+				BC3945171809943A00DA5A8C /* Default@2x.png */,
+				BC3945191809943A00DA5A8C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC3945271809943A00DA5A8C /* PanNavigationControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC39452D1809943A00DA5A8C /* PanNavigationControllerTests.h */,
+				BC39452E1809943A00DA5A8C /* PanNavigationControllerTests.m */,
+				BC3945281809943A00DA5A8C /* Supporting Files */,
+			);
+			path = PanNavigationControllerTests;
+			sourceTree = "<group>";
+		};
+		BC3945281809943A00DA5A8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC3945291809943A00DA5A8C /* PanNavigationControllerTests-Info.plist */,
+				BC39452A1809943A00DA5A8C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC3944FF1809943A00DA5A8C /* PanNavigationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC3945321809943A00DA5A8C /* Build configuration list for PBXNativeTarget "PanNavigationController" */;
+			buildPhases = (
+				BC3944FC1809943A00DA5A8C /* Sources */,
+				BC3944FD1809943A00DA5A8C /* Frameworks */,
+				BC3944FE1809943A00DA5A8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PanNavigationController;
+			productName = PanNavigationController;
+			productReference = BC3945001809943A00DA5A8C /* PanNavigationController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC39451F1809943A00DA5A8C /* PanNavigationControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC3945351809943A00DA5A8C /* Build configuration list for PBXNativeTarget "PanNavigationControllerTests" */;
+			buildPhases = (
+				BC39451B1809943A00DA5A8C /* Sources */,
+				BC39451C1809943A00DA5A8C /* Frameworks */,
+				BC39451D1809943A00DA5A8C /* Resources */,
+				BC39451E1809943A00DA5A8C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC3945261809943A00DA5A8C /* PBXTargetDependency */,
+			);
+			name = PanNavigationControllerTests;
+			productName = PanNavigationControllerTests;
+			productReference = BC3945201809943A00DA5A8C /* PanNavigationControllerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC3944F81809943A00DA5A8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = luolisheng;
+			};
+			buildConfigurationList = BC3944FB1809943A00DA5A8C /* Build configuration list for PBXProject "PanNavigationController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BC3944F71809943A00DA5A8C;
+			productRefGroup = BC3945011809943A00DA5A8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC3944FF1809943A00DA5A8C /* PanNavigationController */,
+				BC39451F1809943A00DA5A8C /* PanNavigationControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC3944FE1809943A00DA5A8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC39450E1809943A00DA5A8C /* InfoPlist.strings in Resources */,
+				BC3945161809943A00DA5A8C /* Default.png in Resources */,
+				BC3945181809943A00DA5A8C /* Default@2x.png in Resources */,
+				BC39451A1809943A00DA5A8C /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC39451D1809943A00DA5A8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC39452C1809943A00DA5A8C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BC39451E1809943A00DA5A8C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC3944FC1809943A00DA5A8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3945101809943A00DA5A8C /* main.m in Sources */,
+				BC3945141809943A00DA5A8C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC39451B1809943A00DA5A8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC39452F1809943A00DA5A8C /* PanNavigationControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC3945261809943A00DA5A8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC3944FF1809943A00DA5A8C /* PanNavigationController */;
+			targetProxy = BC3945251809943A00DA5A8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC39450C1809943A00DA5A8C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC39450D1809943A00DA5A8C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BC39452A1809943A00DA5A8C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC39452B1809943A00DA5A8C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC3945301809943A00DA5A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC3945311809943A00DA5A8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC3945331809943A00DA5A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PanNavigationController/PanNavigationController-Prefix.pch";
+				INFOPLIST_FILE = "PanNavigationController/PanNavigationController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BC3945341809943A00DA5A8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PanNavigationController/PanNavigationController-Prefix.pch";
+				INFOPLIST_FILE = "PanNavigationController/PanNavigationController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BC3945361809943A00DA5A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PanNavigationController.app/PanNavigationController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PanNavigationController/PanNavigationController-Prefix.pch";
+				INFOPLIST_FILE = "PanNavigationControllerTests/PanNavigationControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BC3945371809943A00DA5A8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PanNavigationController.app/PanNavigationController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PanNavigationController/PanNavigationController-Prefix.pch";
+				INFOPLIST_FILE = "PanNavigationControllerTests/PanNavigationControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC3944FB1809943A00DA5A8C /* Build configuration list for PBXProject "PanNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC3945301809943A00DA5A8C /* Debug */,
+				BC3945311809943A00DA5A8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC3945321809943A00DA5A8C /* Build configuration list for PBXNativeTarget "PanNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC3945331809943A00DA5A8C /* Debug */,
+				BC3945341809943A00DA5A8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC3945351809943A00DA5A8C /* Build configuration list for PBXNativeTarget "PanNavigationControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC3945361809943A00DA5A8C /* Debug */,
+				BC3945371809943A00DA5A8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC3944F81809943A00DA5A8C /* Project object */;
+}
