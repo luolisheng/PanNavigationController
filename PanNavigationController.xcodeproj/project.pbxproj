@@ -21,6 +21,9 @@
 		BC3945241809943A00DA5A8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3945051809943A00DA5A8C /* Foundation.framework */; };
 		BC39452C1809943A00DA5A8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC39452A1809943A00DA5A8C /* InfoPlist.strings */; };
 		BC39452F1809943A00DA5A8C /* PanNavigationControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC39452E1809943A00DA5A8C /* PanNavigationControllerTests.m */; };
+		BC39453A1809A7AC00DA5A8C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3945391809A7AC00DA5A8C /* RootViewController.m */; };
+		BC39453D1809A88D00DA5A8C /* UIPanNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC39453C1809A88D00DA5A8C /* UIPanNavigationController.m */; };
+		BC3945401809A89E00DA5A8C /* UINavigationController+PanNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC39453F1809A89E00DA5A8C /* UINavigationController+PanNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		BC39452B1809943A00DA5A8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BC39452D1809943A00DA5A8C /* PanNavigationControllerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanNavigationControllerTests.h; sourceTree = "<group>"; };
 		BC39452E1809943A00DA5A8C /* PanNavigationControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanNavigationControllerTests.m; sourceTree = "<group>"; };
+		BC3945381809A7AC00DA5A8C /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		BC3945391809A7AC00DA5A8C /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		BC39453B1809A88D00DA5A8C /* UIPanNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPanNavigationController.h; sourceTree = "<group>"; };
+		BC39453C1809A88D00DA5A8C /* UIPanNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPanNavigationController.m; sourceTree = "<group>"; };
+		BC39453E1809A89E00DA5A8C /* UINavigationController+PanNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+PanNavigationController.h"; sourceTree = "<group>"; };
+		BC39453F1809A89E00DA5A8C /* UINavigationController+PanNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+PanNavigationController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,9 +121,15 @@
 		BC3945091809943A00DA5A8C /* PanNavigationController */ = {
 			isa = PBXGroup;
 			children = (
+				BC39453E1809A89E00DA5A8C /* UINavigationController+PanNavigationController.h */,
+				BC39453F1809A89E00DA5A8C /* UINavigationController+PanNavigationController.m */,
+				BC39453B1809A88D00DA5A8C /* UIPanNavigationController.h */,
+				BC39453C1809A88D00DA5A8C /* UIPanNavigationController.m */,
 				BC3945121809943A00DA5A8C /* AppDelegate.h */,
 				BC3945131809943A00DA5A8C /* AppDelegate.m */,
 				BC39450A1809943A00DA5A8C /* Supporting Files */,
+				BC3945381809A7AC00DA5A8C /* RootViewController.h */,
+				BC3945391809A7AC00DA5A8C /* RootViewController.m */,
 			);
 			path = PanNavigationController;
 			sourceTree = "<group>";
@@ -263,6 +278,9 @@
 			files = (
 				BC3945101809943A00DA5A8C /* main.m in Sources */,
 				BC3945141809943A00DA5A8C /* AppDelegate.m in Sources */,
+				BC39453A1809A7AC00DA5A8C /* RootViewController.m in Sources */,
+				BC39453D1809A88D00DA5A8C /* UIPanNavigationController.m in Sources */,
+				BC3945401809A89E00DA5A8C /* UINavigationController+PanNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +457,7 @@
 				BC3945341809943A00DA5A8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC3945351809943A00DA5A8C /* Build configuration list for PBXNativeTarget "PanNavigationControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +466,7 @@
 				BC3945371809943A00DA5A8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

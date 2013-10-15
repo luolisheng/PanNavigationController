@@ -7,14 +7,20 @@
 //
 
 #import "AppDelegate.h"
+#import "RootViewController.h"
+#import "UIPanNavigationController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    RootViewController *rootViewController = [[RootViewController alloc] init];
+    UIPanNavigationController *panNavigationController = [[UIPanNavigationController alloc] initWithRootViewController:rootViewController addPanGesture:YES];
+    
+    self.window.rootViewController = panNavigationController;
+//    self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
 }

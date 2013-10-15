@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  RootViewController.h
 //  PanNavigationController
 //
 //  Created by luolisheng on 13-10-12.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@class RootViewController;
-
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface RootViewController : UITableViewController
 
 @end
